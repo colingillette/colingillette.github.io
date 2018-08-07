@@ -23,14 +23,14 @@
         {
             $("#move-button").click(function ()
             {
-                $(".main-body").toggle(1250);
+                $(".main-body").slideToggle();
                 $("#move-button").toggle("fast");
                 $("#move-button2").toggle("fast");
             });
 
             $("#move-button2").click(function ()
             {
-                $(".main-body").toggle(1250);
+                $(".main-body").slideToggle();
                 $("#move-button").toggle("fast");
                 $("#move-button2").toggle("fast");
             });
@@ -42,16 +42,18 @@
 </head>
 
 <body>
+    <!-- Header for site -->
     <div class="header">
         <h1 id="title">Welcome! My name is Colin Gillette.</h1>
         
         <p id="sub-title">I'm a <span class="bold">Development</span> and <span class="bold">Information Technology</span> Specialist</p>
         <p id="redirect">Click below to see what that means.</p>
-        <button type="button" id="move-button" class="btn btn-info btn-circle btn-lg"><i class="glyphicon glyphicon-chevron-down"></i></button>
-        <button type="button" id="move-button2" class="btn btn-info btn-circle btn-lg"><i class="glyphicon glyphicon-chevron-up"></i></button>
+        <button type="button" id="move-button" class="btn btn-info btn-circle btn-lg"><i id="glyph" class="glyphicon glyphicon-chevron-down"></i></button>
+        <button type="button" id="move-button2" class="btn btn-info btn-circle btn-lg"><i id="glyph" class="glyphicon glyphicon-chevron-up"></i></button>
     </div>
 
-    <div class="main-body">
+    <!-- Revealed to show bulk of experience in a display case format -->
+    <div id="first-row" class="main-body">
         <div class="container text-center">
             <h3 class="reveal-title">Here are some examples:</h3>
 
