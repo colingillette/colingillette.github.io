@@ -11,32 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script>  
-        $(function ()
-        {
-            $(".main-body").hide();
-            $("#move-button2").hide();
-        });
-        
-        $(document).ready(function ()
-        {
-            $("#move-button").click(function ()
-            {
-                $(".main-body").slideToggle();
-                $("#move-button").toggle("fast");
-                $("#move-button2").toggle("fast");
-            });
-
-            $("#move-button2").click(function ()
-            {
-                $(".main-body").slideToggle();
-                $("#move-button").toggle("fast");
-                $("#move-button2").toggle("fast");
-            });
-        });
-    </script>
-
+    <script type="text/javascript" src="scripts/index.js"></script>
     <link rel="shortcut icon" type="image/png" href="/img/GilletteLogo.png" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
 </head>
@@ -49,7 +24,6 @@
         <p id="sub-title">I'm a <span class="bold">Development</span> and <span class="bold">Information Technology</span> Specialist</p>
         <p id="redirect">Click below to see what that means.</p>
         <button type="button" id="move-button" class="btn btn-info btn-circle btn-lg"><i id="glyph" class="glyphicon glyphicon-chevron-down"></i></button>
-        <button type="button" id="move-button2" class="btn btn-info btn-circle btn-lg"><i id="glyph" class="glyphicon glyphicon-chevron-up"></i></button>
     </div>
 
     <!-- Revealed to show bulk of experience in a display case format -->
