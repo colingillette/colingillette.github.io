@@ -11,7 +11,7 @@ $(document).ready(function ()
         $(".main-body").slideToggle();
         $("#glyph").toggleClass('glyphicon-chevron-up glyphicon-chevron-down');
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#first-display").offset().top
+            scrollTop: $(".reveal-title").offset().top
         }, 1250);
     });
 });
