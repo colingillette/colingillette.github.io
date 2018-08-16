@@ -48,3 +48,35 @@ h1 {
     color: white;
     margin-bottom: 1.5em;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #660099;
+    bottom: 0;
+    color: white;
+    font-size: 1.25em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-link {
+    color: orange;
+}
+
+.footer-link:hover {
+    color: white;
+    text-decoration: none;
+    text-emphasis: strength;
+}
+
+.footer-link:active {
+    color: orange;
+}
+
+.footer-link:visited {
+    color: orange;
+}
