@@ -26,7 +26,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: rgb(131, 129, 129);
+    color: #580699;
 }
 
 a:hover {
@@ -59,7 +59,13 @@ ul.posts li {
     list-style: none;
 }
 
-input[type="text"], input[type="email"] {
+label {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+input[type="text"], input[type="email"], textarea {
     display: inline-block;
     width: 100%;
     padding: 12px 20px;
@@ -70,12 +76,13 @@ input[type="text"], input[type="email"] {
 }
 
 input[type="submit"] {
-    width: 100%;
+    width: 80%;
     background-color: #580699;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: auto;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 2em;
 }
