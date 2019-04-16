@@ -83,7 +83,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input[type="submit"] {
-    width: 80%;
+    width: 60%;
     background-color: #580699;
     color: white;
     padding: 14px 20px;
@@ -92,4 +92,9 @@ input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     font-size: 2em;
+}
+
+#contact-form {
+    text-align: center;
+    margin: auto;
 }
