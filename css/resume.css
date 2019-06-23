@@ -1,3 +1,15 @@
 #resume-body {
   text-align: center;
 }
+
+iframe:focus { 
+  outline: none;
+}
+
+iframe[seamless] { 
+  display: block;
+}
+
+iframe {
+  width: 100%;
+}
