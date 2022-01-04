@@ -14,11 +14,7 @@ Thus we came to the idea: beer recommendations for amateur craft beer drinkers. 
 
 I live in St. Peters: a town in St. Charles County, which makes up the Northwestern end of the St. Louis Metropolitan area. Thus Three Saints was born. Just how I live in this nested set of three towns of Saints, I would focus my beer recommendations starting with St. Peters and the nearby brewers, eventually moving out to St. Charles County and St. Louis as well.
 
-At the moment, I am working on understanding the full offerings of a few breweries very close to me. Three Saints will follow their new offerings, and attempt to make recommendations for their full tap lists. These first breweries are:
-* Third Wheel Brewing - St. Peters
-* Exit 6 Brewery - St. Charles
-* Shortleaf Brewing - O'Fallon
-* Six Mile Bridge - Maryland Heights
+At the moment, I am working on understanding the full offerings of a few breweries very close to me. Three Saints will follow their new offerings, and attempt to make recommendations for their full tap lists. These first breweries are: Third Wheel Brewing in St. Peters, Exit 6 Brewery in St. Charles, Shortleaf Brewing in O'Fallon, and Six Mile Bridge in Maryland Heights.
 
 That's not to say Three Saints will only recommend beers from these breweries. We're going to use common craft beers from brewers across the city and the nation that drinkers may be familiar with to help make helpful comparisons.
 
